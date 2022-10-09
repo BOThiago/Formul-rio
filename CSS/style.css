@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
 
-*{
+* {
     font-family: 'Lexend Deca', sans-serif;
     /*'Lexend Deca', sans-serif;
     'Montserrat', sans-serif;*/
@@ -20,7 +20,7 @@
     font-weight: 200;
 }
 
-h1 {
+.titulo {
     margin-top: 50px;
     margin-bottom: 50px;
     color: white;
@@ -32,14 +32,13 @@ h1 {
     background-color: #fff;
     align-items: center;
     text-align: left;
-    width: 50%;
     height: 14em;
     border-radius: 20px;
     border: 3px solid white;
     padding: clamp(100px, 0%, 100px);
 }
 
-input {
+.input {
     background-color: #bcc;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -53,13 +52,13 @@ input {
     font-weight: 600;
   }
 
-h2 {
+.subtitulo {
     align-items: center;
     color: black;
     text-align: center;
 }
 
-label {
+.login_label {
     align-items: center;
     color : #111;
     font-size: large;
@@ -72,12 +71,12 @@ label {
     color: rgba(100, 100, 100, 1);
     margin: 30px;
     cursor: text;
-    transition: all 200ms ease;
+    transition: all 600ms ease;
 }
 
-input:focus {
-    border: 2px solid black;
+.input:focus { 
     background-color: #accc;
+    border: 2px solid black;
 }
 
 .login_label .span-active {
@@ -88,5 +87,5 @@ input:focus {
 
 .login_logo {
     width: 70px;
-    margin-left: 43%;
+    margin-left: 47%;
 }
